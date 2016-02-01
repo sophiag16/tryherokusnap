@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.mkyong.helloworld.TestController</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.mkyong.helloworld.TestController</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.mkyong.helloworld.html">com.mkyong.helloworld</a> &gt; TestController</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.102s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test_welcome</td>
+<td>0.102s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:36:08,972 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+14:36:08,972 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+14:36:08,972 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/sophiag/petProj/spring4-mvc-gradle-annotation-hello-world-master/build/resources/main/logback.xml]
+14:36:09,050 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+14:36:09,052 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+14:36:09,062 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+14:36:09,132 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+14:36:09,132 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+14:36:09,132 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+14:36:09,132 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to DEBUG
+14:36:09,132 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.springframework] to false
+14:36:09,132 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.springframework]
+14:36:09,133 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.mkyong.helloworld] to DEBUG
+14:36:09,133 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.mkyong.helloworld] to false
+14:36:09,133 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[com.mkyong.helloworld]
+14:36:09,133 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to ERROR
+14:36:09,133 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+14:36:09,133 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+14:36:09,134 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@3a0bc084 - Registering current configuration as safe fallback point
+
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.mkyong.helloworld.TestController]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.mkyong.helloworld.TestController] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigWebContextLoader to process context configuration [ContextConfigurationAttributes@35d3c221 declaringClass = 'com.mkyong.helloworld.TestController', classes = '{class com.mkyong.helloworld.config.SpringWebConfig, class com.mkyong.helloworld.config.SpringRootConfig}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.mkyong.helloworld.TestController]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.c.w.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [com.mkyong.helloworld.TestController]: using defaults.
+2016-02-01 14:36:09 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-02-01 14:36:09 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2016-02-01 14:36:09 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2016-02-01 14:36:09 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6cac9d5e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@52ef6634, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@37fe1718, org.springframework.test.context.support.DirtiesContextTestExecutionListener@29e99f00]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mkyong.helloworld.TestController]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mkyong.helloworld.TestController]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mkyong.helloworld.TestController]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mkyong.helloworld.TestController]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2a4885ba testClass = TestController, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2a3bd943 testClass = TestController, locations = '{}', classes = '{class com.mkyong.helloworld.config.SpringWebConfig, class com.mkyong.helloworld.config.SpringRootConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.mkyong.helloworld.TestController]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.mkyong.helloworld.TestController]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigWebContextLoader to load context from [WebMergedContextConfiguration@2a3bd943 testClass = TestController, locations = '{}', classes = '{class com.mkyong.helloworld.config.SpringWebConfig, class com.mkyong.helloworld.config.SpringRootConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]].
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.c.w.AbstractGenericWebContextLoader - Loading WebApplicationContext for merged context configuration [WebMergedContextConfiguration@2a3bd943 testClass = TestController, locations = '{}', classes = '{class com.mkyong.helloworld.config.SpringWebConfig, class com.mkyong.helloworld.config.SpringRootConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]].
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.t.c.w.AnnotationConfigWebContextLoader - Registering annotated classes: {class com.mkyong.helloworld.config.SpringWebConfig, class com.mkyong.helloworld.config.SpringRootConfig}
+2016-02-01 14:36:09 [Test worker] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3c76032: startup date [Mon Feb 01 14:36:09 IST 2016]; root of context hierarchy
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Bean factory for org.springframework.web.context.support.GenericWebApplicationContext@3c76032: org.springframework.beans.factory.support.DefaultListableBeanFactory@3210b42b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,springWebConfig,springRootConfig]; root of factory hierarchy
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@6f559445]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@43777330]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'globalSession' with implementation [org.springframework.web.context.request.SessionScope@7b8b1039]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@22faf54a]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sophiag/petProj/spring4-mvc-gradle-annotation-hello-world-master/build/classes/main/com/mkyong/helloworld/web]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/Users/sophiag/petProj/spring4-mvc-gradle-annotation-hello-world-master/build/classes/main/com/mkyong/helloworld/web] for files matching pattern [/Users/sophiag/petProj/spring4-mvc-gradle-annotation-hello-world-master/build/classes/main/com/mkyong/helloworld/web/**/*.class]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/mkyong/helloworld/web/**/*.class] to resources [file [/Users/sophiag/petProj/spring4-mvc-gradle-annotation-hello-world-master/build/classes/main/com/mkyong/helloworld/web/WelcomeController.class]]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/sophiag/petProj/spring4-mvc-gradle-annotation-hello-world-master/build/classes/main/com/mkyong/helloworld/web/WelcomeController.class]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sophiag/petProj/spring4-mvc-gradle-annotation-hello-world-master/build/classes/main/com/mkyong/helloworld/service]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/Users/sophiag/petProj/spring4-mvc-gradle-annotation-hello-world-master/build/classes/main/com/mkyong/helloworld/service] for files matching pattern [/Users/sophiag/petProj/spring4-mvc-gradle-annotation-hello-world-master/build/classes/main/com/mkyong/helloworld/service/**/*.class]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/mkyong/helloworld/service/**/*.class] to resources [file [/Users/sophiag/petProj/spring4-mvc-gradle-annotation-hello-world-master/build/classes/main/com/mkyong/helloworld/service/HelloWorldService.class]]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/sophiag/petProj/spring4-mvc-gradle-annotation-hello-world-master/build/classes/main/com/mkyong/helloworld/service/HelloWorldService.class]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.requestMappingHandlerMapping()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcContentNegotiationManager()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.viewControllerHandlerMapping()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.beanNameHandlerMapping()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.resourceHandlerMapping()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcResourceUrlProvider()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.defaultServletHandlerMapping()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.requestMappingHandlerAdapter()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcConversionService()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcValidator()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcPathMatcher()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcUrlPathHelper()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcUriComponentsContributor()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.httpRequestHandlerAdapter()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.simpleControllerHandlerAdapter()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.handlerExceptionResolver()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.mvcViewResolver()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method com.mkyong.helloworld.config.SpringWebConfig.viewResolver()
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced com.mkyong.helloworld.config.SpringWebConfig; enhanced class name is: com.mkyong.helloworld.config.SpringWebConfig$$EnhancerBySpringCGLIB$$e878e46b
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'springWebConfig' existing class 'com.mkyong.helloworld.config.SpringWebConfig' with enhanced class 'com.mkyong.helloworld.config.SpringWebConfig$$EnhancerBySpringCGLIB$$e878e46b'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced com.mkyong.helloworld.config.SpringRootConfig; enhanced class name is: com.mkyong.helloworld.config.SpringRootConfig$$EnhancerBySpringCGLIB$$2ffd60d7
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'springRootConfig' existing class 'com.mkyong.helloworld.config.SpringRootConfig' with enhanced class 'com.mkyong.helloworld.config.SpringRootConfig$$EnhancerBySpringCGLIB$$2ffd60d7'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; enhanced class name is: org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$b2911005
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' existing class 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' with enhanced class 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$b2911005'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1cbb9947]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@34d5b616]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@588d6380]
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3210b42b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,springWebConfig,springRootConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,welcomeController,helloWorldService,org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration,requestMappingHandlerMapping,mvcContentNegotiationManager,viewControllerHandlerMapping,beanNameHandlerMapping,resourceHandlerMapping,mvcResourceUrlProvider,defaultServletHandlerMapping,requestMappingHandlerAdapter,mvcConversionService,mvcValidator,mvcPathMatcher,mvcUrlPathHelper,mvcUriComponentsContributor,httpRequestHandlerAdapter,simpleControllerHandlerAdapter,handlerExceptionResolver,mvcViewResolver,viewResolver]; root of factory hierarchy
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springWebConfig'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'springWebConfig'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'springWebConfig' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'springWebConfig'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springRootConfig'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'springRootConfig'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'springRootConfig' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'springRootConfig'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'welcomeController'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'welcomeController'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'helloWorldService'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'helloWorldService'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'helloWorldService' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'helloWorldService'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'welcomeController' via constructor to bean named 'helloWorldService'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'welcomeController' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'welcomeController'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'helloWorldService'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$b2911005]: AutowiredMethodElement for public void org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.setConfigurers(java.util.List)
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': AutowiredMethodElement for public void org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.setConfigurers(java.util.List)
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'springWebConfig'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration' to bean named 'springWebConfig'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'requestMappingHandlerMapping'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcConversionService'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcConversionService'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcConversionService' to allow for resolving potential circular references
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcConversionService'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcResourceUrlProvider'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:09 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcResourceUrlProvider' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcResourceUrlProvider'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcContentNegotiationManager'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcContentNegotiationManager'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'requestMappingHandlerMapping' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.web.context.support.GenericWebApplicationContext@3c76032: startup date [Mon Feb 01 14:36:09 IST 2016]; root of context hierarchy
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 2 request handler methods found on class com.mkyong.helloworld.web.WelcomeController: {public java.lang.String com.mkyong.helloworld.web.WelcomeController.index(java.util.Map)={[/],methods=[GET]}, public org.springframework.web.servlet.ModelAndView com.mkyong.helloworld.web.WelcomeController.hello(java.lang.String)={[/hello/{name:.+}],methods=[GET]}}
+2016-02-01 14:36:10 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/],methods=[GET]}&quot; onto public java.lang.String com.mkyong.helloworld.web.WelcomeController.index(java.util.Map&lt;java.lang.String, java.lang.Object&gt;)
+2016-02-01 14:36:10 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/hello/{name:.+}],methods=[GET]}&quot; onto public org.springframework.web.servlet.ModelAndView com.mkyong.helloworld.web.WelcomeController.hello(java.lang.String)
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'requestMappingHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'viewControllerHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPathMatcher'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcPathMatcher'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcPathMatcher' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcPathMatcher'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcUrlPathHelper'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcUrlPathHelper' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcUrlPathHelper'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'viewControllerHandlerMapping' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'viewControllerHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'beanNameHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'beanNameHandlerMapping' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Looking for URL mappings in application context: org.springframework.web.context.support.GenericWebApplicationContext@3c76032: startup date [Mon Feb 01 14:36:09 IST 2016]; root of context hierarchy
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.event.internalEventListenerProcessor': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.event.internalEventListenerFactory': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'springWebConfig': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'springRootConfig': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'welcomeController': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'helloWorldService': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'requestMappingHandlerMapping': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'viewControllerHandlerMapping': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'beanNameHandlerMapping': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'resourceHandlerMapping': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcResourceUrlProvider': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'defaultServletHandlerMapping': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'requestMappingHandlerAdapter': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcConversionService': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcValidator': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcPathMatcher': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcUrlPathHelper': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcUriComponentsContributor': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'httpRequestHandlerAdapter': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'simpleControllerHandlerAdapter': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'handlerExceptionResolver': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'mvcViewResolver': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'viewResolver': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'environment': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'systemProperties': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'systemEnvironment': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'servletContext': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'contextParameters': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'contextAttributes': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'messageSource': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'beanNameHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'resourceHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'resourceHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcPathMatcher'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'resourceHandlerMapping' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'resourceHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'defaultServletHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'defaultServletHandlerMapping' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'defaultServletHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'requestMappingHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcValidator'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcValidator'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcValidator' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcValidator'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'requestMappingHandlerAdapter' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3c76032: startup date [Mon Feb 01 14:36:09 IST 2016]; root of context hierarchy
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'requestMappingHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcValidator'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcPathMatcher'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcUrlPathHelper'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcUriComponentsContributor'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcUriComponentsContributor' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcUriComponentsContributor'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'httpRequestHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'httpRequestHandlerAdapter' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'httpRequestHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'simpleControllerHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'simpleControllerHandlerAdapter' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'simpleControllerHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerExceptionResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'handlerExceptionResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.web.context.support.GenericWebApplicationContext@3c76032: startup date [Mon Feb 01 14:36:09 IST 2016]; root of context hierarchy
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'handlerExceptionResolver' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'handlerExceptionResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcViewResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcViewResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcViewResolver' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'mvcViewResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcViewResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'viewResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'springWebConfig'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'viewResolver' to allow for resolving potential circular references
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'viewResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@1dc092e5]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.resource.ResourceUrlProvider - Looking for resource handler mappings
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'resourceHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.resource.ResourceUrlProvider - Found resource handler mapping: URL pattern=&quot;/resources/**&quot;, locations=[ServletContext resource [/resources/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@2047861a]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Storing ApplicationContext in cache under key [[WebMergedContextConfiguration@2a3bd943 testClass = TestController, locations = '{}', classes = '{class com.mkyong.helloworld.config.SpringWebConfig, class com.mkyong.helloworld.config.SpringRootConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]]
+2016-02-01 14:36:10 [Test worker] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@773c57b7 size = 1, parentContextCount = 0, hitCount = 0, missCount = 1]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.c.w.ServletTestExecutionListener - Setting up MockHttpServletRequest, MockHttpServletResponse, ServletWebRequest, and RequestContextHolder for test context [DefaultTestContext@2a4885ba testClass = TestController, testInstance = com.mkyong.helloworld.TestController@7702274f, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2a3bd943 testClass = TestController, locations = '{}', classes = '{class com.mkyong.helloworld.config.SpringWebConfig, class com.mkyong.helloworld.config.SpringRootConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]].
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@2a4885ba testClass = TestController, testInstance = com.mkyong.helloworld.TestController@7702274f, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2a3bd943 testClass = TestController, locations = '{}', classes = '{class com.mkyong.helloworld.config.SpringWebConfig, class com.mkyong.helloworld.config.SpringRootConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]]].
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@2a3bd943 testClass = TestController, locations = '{}', classes = '{class com.mkyong.helloworld.config.SpringWebConfig, class com.mkyong.helloworld.config.SpringRootConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]]
+2016-02-01 14:36:10 [Test worker] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@773c57b7 size = 1, parentContextCount = 0, hitCount = 1, missCount = 1]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'com.mkyong.helloworld.TestController': AutowiredFieldElement for private org.springframework.web.context.WebApplicationContext com.mkyong.helloworld.TestController.wac
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'com.mkyong.helloworld.TestController' to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@3c76032'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test method: context [DefaultTestContext@2a4885ba testClass = TestController, testInstance = com.mkyong.helloworld.TestController@7702274f, testMethod = test_welcome@TestController, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2a3bd943 testClass = TestController, locations = '{}', classes = '{class com.mkyong.helloworld.config.SpringWebConfig, class com.mkyong.helloworld.config.SpringRootConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Initializing servlet ''
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-02-01 14:36:10 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+2016-02-01 14:36:10 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@416663b6]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@12df5fa1]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'requestMappingHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'viewControllerHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'beanNameHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'resourceHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'defaultServletHandlerMapping'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'handlerExceptionResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@26f57023]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcViewResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'viewResolver'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@464d7a10]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+2016-02-01 14:36:10 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 14 ms
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Servlet '' configured successfully
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - DispatcherServlet with name '' processing GET request for [/hello/mkyong]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /hello/mkyong
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.web.servlet.ModelAndView com.mkyong.helloworld.web.WelcomeController.hello(java.lang.String)]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'welcomeController'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Last-Modified value for [/hello/mkyong] is: -1
+2016-02-01 14:36:10 [Test worker] DEBUG c.m.helloworld.web.WelcomeController - hello() is executed - $name mkyong
+2016-02-01 14:36:10 [Test worker] DEBUG c.m.h.service.HelloWorldService - getTitle() is executed! $name : mkyong
+2016-02-01 14:36:10 [Test worker] DEBUG c.m.h.service.HelloWorldService - getDesc() is executed!
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'index'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.JstlView: name 'index'; URL [/WEB-INF/views/jsp/index.jsp]] in DispatcherServlet with name ''
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.web.servlet.view.JstlView - Added model object 'name' of type [java.lang.String] to request in view with name 'index'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.web.servlet.view.JstlView - Added model object 'title' of type [java.lang.String] to request in view with name 'index'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.web.servlet.view.JstlView - Added model object 'msg' of type [java.lang.String] to request in view with name 'index'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.web.servlet.view.JstlView - Forwarding to resource [/WEB-INF/views/jsp/index.jsp] in InternalResourceView 'index'
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.mock.web.MockRequestDispatcher - MockRequestDispatcher: forwarding to [/WEB-INF/views/jsp/index.jsp]
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Successfully completed request
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - After test method: context [DefaultTestContext@2a4885ba testClass = TestController, testInstance = com.mkyong.helloworld.TestController@7702274f, testMethod = test_welcome@TestController, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2a3bd943 testClass = TestController, locations = '{}', classes = '{class com.mkyong.helloworld.config.SpringWebConfig, class com.mkyong.helloworld.config.SpringRootConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.c.w.ServletTestExecutionListener - Resetting RequestContextHolder for test context [DefaultTestContext@2a4885ba testClass = TestController, testInstance = com.mkyong.helloworld.TestController@7702274f, testMethod = test_welcome@TestController, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2a3bd943 testClass = TestController, locations = '{}', classes = '{class com.mkyong.helloworld.config.SpringWebConfig, class com.mkyong.helloworld.config.SpringRootConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]].
+2016-02-01 14:36:10 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - After test class: context [DefaultTestContext@2a4885ba testClass = TestController, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2a3bd943 testClass = TestController, locations = '{}', classes = '{class com.mkyong.helloworld.config.SpringWebConfig, class com.mkyong.helloworld.config.SpringRootConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.10</a> at Feb 1, 2016 2:36:10 PM</p>
+</div>
+</div>
+</body>
+</html>
